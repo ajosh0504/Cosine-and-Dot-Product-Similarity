@@ -12,4 +12,25 @@ https://en.wikipedia.org/wiki/Cosine_similarity
 To know more about dot product similarity, refer the following link:
 https://nlp.stanford.edu/IR-book/html/htmledition/dot-products-1.html
 
+# Code Description
+-vocab: Vocabulary vector obtained by reading each document line by line and creating a list of only first occurences of each word in each of the 500 documents. 
+
+-temp_doc:Array representing frequency with which each word in the vocabulary occurs in each document. It is an array of freqeuncy vectors of all the documents.
+
+-temp_query: An array similar to temp_doc, but for queries.
+
+-dot_sum-To calculate dot product of freqeuncy vectors of document and query
+
+-doc_sum-To calculate dot product of frequency vector of each document with itself.(Equivalent to finding norm)
+
+-query_sum: To calculate dot product of frequency vector of each query with itself.
+
+-S_dot: Contains all the dot products
+
+-S_cos: Contains cosine similarity results
+
+-top_ten_dot: Contains indices of top ten documents using dot product similarity
+
+-top_ten_cos: Contains indices of top ten documents using cosine similarity
+
 
