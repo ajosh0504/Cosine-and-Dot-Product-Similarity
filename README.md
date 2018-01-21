@@ -12,7 +12,13 @@ https://en.wikipedia.org/wiki/Cosine_similarity
 To know more about dot product similarity, refer the following link:
 https://nlp.stanford.edu/IR-book/html/htmledition/dot-products-1.html
 
+# Latent Semantic Indexing
+To know more about Latent Semantic Indexing, refer the following link:
+https://www.searchenginejournal.com/what-is-latent-semantic-indexing-seo-defined/21642/
+
 # Code Description
+-doc_query.cpp: C++ implementation of Dot and Cosine Similarity, followed by Latent Semantic Indexing
+
 -vocab: Vocabulary vector obtained by reading each document line by line and creating a list of only first occurences of each word in each of the 500 documents. 
 
 -temp_doc:Array representing frequency with which each word in the vocabulary occurs in each document. It is an array of freqeuncy vectors of all the documents.
